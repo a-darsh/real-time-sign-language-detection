@@ -29,4 +29,26 @@ Before running the app or following the steps below, make sure you have the foll
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/a-darsh/real-time-sign-language-detection
+
+2. Navigate to the project directory:
+   
+  ```shell
+  cd sig-detection-app
+
+## Usage
+
+The project consists of the following main components:
+
+### Data Collection and Labeling
+
+You can collect and label sign language gesture images using the provided Python script. The labeled images are stored in the `labeled_data` directory.
+
+1. Navigate to the `data_collection` directory.
+2. Modify the list of hand signs and the number of images per sign in the script.
+3. Run the data collection script:
+
+   ```shell
+   python collect_and_label_data.py
+
+
