@@ -73,7 +73,7 @@ You can collect and label sign language gesture images using the provided Python
 
 ## Running the Web App
 
-1. Navigate to the sig-detection-app directory.
+1. Navigate to the sig-detect-app directory.
 2. Start the React.js app:
    
     ```shell
