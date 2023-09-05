@@ -35,13 +35,12 @@ Before running the app or following the steps below, make sure you have the foll
    
     ```shell
     cd sig-detection-app
-    ```
+    
   
 3.Install the required dependencies
 
-    ```shell
     npm install
-    ```
+    
 
 
 ## Usage
