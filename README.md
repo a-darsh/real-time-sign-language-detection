@@ -59,7 +59,7 @@ Navigate to the fine_tuning directory.
 
 Modify the script as needed, specifying paths and hyperparameters.
 
-Run the fine-tuning script to load the labeled data, fine-tune the MobileNet model, and save the model in the sign_language_detection_model directory.:
+Run the fine-tuning script to load the labeled data, fine-tune the MobileNet model, and save the model in the sign_language_detection_model directory:
 
   ```shell
   python fine_tune_mobilenet.py
@@ -73,12 +73,10 @@ Navigate to the conversion_to_tfjs directory.
 
 Modify the paths in the script to point to your saved model.
 
-Run the conversion script:
+Run the conversion script to converts the model to TensorFlow.js format and saves it in the tfjs_model directory:
   ```shell
   python convert_to_tfjs.py
   ```
-This script converts the model to TensorFlow.js format and saves it in the tfjs_model directory.
-
 
 ## Running the Web App
 
