@@ -33,14 +33,16 @@ Before running the app or following the steps below, make sure you have the foll
    
 2. Navigate to the project directory:
    
-  ```shell
-  cd sig-detection-app
-  ```
+    ```shell
+    cd sig-detection-app
+    ```
+  
 3.Install the required dependencies
 
-  ```shell
-  npm install
-  ```
+    ```shell
+    npm install
+    ```
+
 
 ## Usage
 
@@ -54,9 +56,9 @@ You can collect and label sign language gesture images using the provided Python
 2. Modify the list of hand signs and the number of images per sign in the script.
 3. Run the data collection script:
 
-```shell
-python collect_and_label_data.py
-```
+    ```shell
+    python collect_and_label_data.py
+    ```
    
 This script will capture images from your webcam, allow you to label them, and save them in the labeled_data directory.
 
@@ -69,9 +71,9 @@ Modify the script as needed, specifying paths and hyperparameters.
 
 Run the fine-tuning script:
 
-```shell
-python fine_tune_mobilenet.py
-```
+  ```shell
+  python fine_tune_mobilenet.py
+  ```
 This script loads the labeled data, fine-tunes the MobileNet model, and saves the model in the sign_language_detection_model directory.
 
 
@@ -83,18 +85,18 @@ Navigate to the conversion_to_tfjs directory.
 Modify the paths in the script to point to your saved model.
 
 Run the conversion script:
-```shell
-python convert_to_tfjs.py
-```
+  ```shell
+  python convert_to_tfjs.py
+  ```
 This script converts the model to TensorFlow.js format and saves it in the tfjs_model directory.
 
 ### Running the Web App
 Navigate to the sig-detection-app directory.
 
 Start the React.js app:
-```shell
-npm run dev
-```
+  ```shell
+  npm run dev
+  ```
 This will start the development server, and you can access the web app in your browser at http://localhost:.
 
 
