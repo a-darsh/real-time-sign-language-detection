@@ -54,8 +54,9 @@ You can collect and label sign language gesture images using the provided Python
 2. Modify the list of hand signs and the number of images per sign in the script.
 3. Run the data collection script:
 
-   ```shell
-   python collect_and_label_data.py
+```shell
+python collect_and_label_data.py
+```
    
 This script will capture images from your webcam, allow you to label them, and save them in the labeled_data directory.
 
@@ -72,6 +73,7 @@ Run the fine-tuning script:
 python fine_tune_mobilenet.py
 ```
 This script loads the labeled data, fine-tunes the MobileNet model, and saves the model in the sign_language_detection_model directory.
+
 
 ### Conversion to TensorFlow.js
 To convert the model to TensorFlow.js format:
