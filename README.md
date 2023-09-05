@@ -11,7 +11,6 @@ This project is a real-time sign language detection web app built using React.js
 - [Fine-Tuning MobileNet](#fine-tuning-mobilenet)
 - [Conversion to TensorFlow.js](#conversion-to-tensorflowjs)
 - [Running the Web App](#running-the-web-app)
-- [License](#license)
 
 ## Getting Started
 
