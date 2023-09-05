@@ -33,13 +33,11 @@ Before running the app or following the steps below, make sure you have the foll
    
     ```shell
     cd sig-detection-app
-    
   
 3. Install the required dependencies
    
     ```shell
     npm install
-    
 
 ## Data Collection and Labeling
 
@@ -56,6 +54,7 @@ This script will capture images from your webcam, allow you to label them, and s
 
 
 ## Fine-Tuning MobileNet
+
 To fine-tune the MobileNet model:
 
 Navigate to the fine_tuning directory.
@@ -72,6 +71,7 @@ This script loads the labeled data, fine-tunes the MobileNet model, and saves th
 
 
 ## Conversion to TensorFlow.js
+
 To convert the model to TensorFlow.js format:
 
 Navigate to the conversion_to_tfjs directory.
@@ -86,6 +86,7 @@ This script converts the model to TensorFlow.js format and saves it in the tfjs_
 
 
 ## Running the Web App
+
 Navigate to the sig-detection-app directory.
 
 Start the React.js app:
