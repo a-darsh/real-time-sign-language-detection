@@ -37,12 +37,11 @@ Before running the app or following the steps below, make sure you have the foll
     cd sig-detection-app
     
   
-3.Install the required dependencies
-
+3. Install the required dependencies
+   
+    ```shell
     npm install
     
-
-
 ## Usage
 
 The project consists of the following main components:
