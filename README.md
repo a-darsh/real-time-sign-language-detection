@@ -53,13 +53,11 @@ You can collect and label sign language gesture images using the provided Python
 
 ## Fine-Tuning MobileNet
 
-To fine-tune the MobileNet model:
+1. Navigate to the fine_tuning directory.
 
-Navigate to the fine_tuning directory.
+2. Modify the script as needed, specifying paths and hyperparameters.
 
-Modify the script as needed, specifying paths and hyperparameters.
-
-Run the fine-tuning script to load the labeled data, fine-tune the MobileNet model, and save the model in the sign_language_detection_model directory:
+3. Run the fine-tuning script to load the labeled data, fine-tune the MobileNet model, and save the model:
 
   ```shell
   python fine_tune_mobilenet.py
@@ -67,13 +65,11 @@ Run the fine-tuning script to load the labeled data, fine-tune the MobileNet mod
 
 ## Conversion to TensorFlow.js
 
-To convert the model to TensorFlow.js format:
+1. Navigate to the conversion_to_tfjs directory.
 
-Navigate to the conversion_to_tfjs directory.
+2. Modify the paths in the script to point to your saved model.
 
-Modify the paths in the script to point to your saved model.
-
-Run the conversion script to converts the model to TensorFlow.js format and saves it in the tfjs_model directory:
+3. Run the conversion script to converts the model to TensorFlow.js format and saves it in the tfjs_model directory:
   ```shell
   python convert_to_tfjs.py
   ```
